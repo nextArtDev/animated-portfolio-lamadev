@@ -1,3 +1,4 @@
+import Hero from '@/_components/Hero'
 import Navbar from '@/_components/Navbar'
 import Test from '@/_components/Test'
 
@@ -6,7 +7,9 @@ export default function Home() {
     <div>
       <section>
         <Navbar />
-        <section>Hero</section>
+        <section>
+          <Hero />
+        </section>
         {/* <Test /> */}
         <section id="Homepage">Parallax</section>
         <section id="Services">Services</section>
