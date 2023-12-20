@@ -1,9 +1,7 @@
 'use client'
 import { motion } from 'framer-motion'
-import Image from 'next/image'
-import Link from 'next/link'
-
 import { FC } from 'react'
+import Sidebar from './sidebar/Sidebar'
 
 interface NavbarProps {}
 
@@ -11,6 +9,7 @@ const Navbar: FC<NavbarProps> = ({}) => {
   return (
     <div className="navbar h-full ">
       {/* Sidebar */}
+      <Sidebar />
 
       <div className="wrapper w-screen max-w-[1366px] m-auto flex items-center justify-between h-full sm:justify-end p-5 ">
         <motion.span

@@ -8,13 +8,13 @@ export default function Home() {
         <Navbar />
         <section>Hero</section>
         {/* <Test /> */}
-        <section>Parallax</section>
-        <section>Services</section>
-        <section>Parallax</section>
-        <section>Protfolio1</section>
+        <section id="Homepage">Parallax</section>
+        <section id="Services">Services</section>
+        <section id="Portfolio">Parallax</section>
+        <section id="Contact">Protfolio1</section>
         <section>Protfolio2</section>
         <section>Protfolio3</section>
-        <section>Contact</section>
+        <section id="About">Contact</section>
       </section>
     </div>
   )
