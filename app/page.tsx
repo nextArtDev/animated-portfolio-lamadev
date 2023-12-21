@@ -1,6 +1,7 @@
 import Hero from '@/_components/Hero'
 import Navbar from '@/_components/Navbar'
 import Parallax from '@/_components/Parallax'
+import Services from '@/_components/Services'
 import Test from '@/_components/Test'
 
 export default function Home() {
@@ -12,6 +13,9 @@ export default function Home() {
 
         <section id="Services">
           <Parallax type="services" />
+        </section>
+        <section>
+          <Services />
         </section>
         <section id="Portfolio">
           <Parallax type="portfolio" />
