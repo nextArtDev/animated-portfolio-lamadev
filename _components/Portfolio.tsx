@@ -42,6 +42,7 @@ const Single = ({ item }: SingleProps) => {
     target: ref,
   })
 
+  // the bigger numbers, the faster response to reference point (here img)
   const y = useTransform(scrollYProgress, [0, 1], [-300, 300])
 
   return (
