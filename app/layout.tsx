@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import Cursor from '@/_components/Cursor'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className=" ">
       <body className={`${inter.className} bg-[#0c0c1d] text-gray-300 `}>
+        <Cursor />
         {children}
       </body>
     </html>
